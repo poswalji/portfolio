@@ -1,0 +1,23 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: #161513;
+    color: white;
+    font-family:'outfit';
+}
+body {
+    transform: scale(0.80);
+    /* Scale down to 80% */
+    transform-origin: top left;
+    /* Ensure scaling starts from the top left */
+width: 125%;
+    /* Compensate for the scaling to maintain layout width */
+} 
+
