@@ -9,17 +9,22 @@ const Navbar = () => {
   const [menu,setMenu] =useState("home");
   const menuRef= useRef();
   const openMenu=()=>{
-    menuRef.current.style.right="0";
+   
+    menuRef.current.style.display="flex";
+     
   }
   const closeMenu=()=>{
-    menuRef.current.style.right="-350px";
-       menuRef.current.style.display="none";
+  
+      menuRef.current.style.display="none"; 
+      
+    
+       
   }
   return (
     <div className='flex   items-center justify-between md:mx-[170px]  my-5 mx-[50px]   '>
       <img className='h-20' src={logo} alt='' />
       <img onClick={openMenu} className='block fixed cursor-pointer right-[30px] md:hidden' src={menu_open} alt=''/>
-      <ul ref={menuRef} className='fixed md:relative top-0 flex md:flex-row md:items-center  list-none md:gap-[60px]  text-[25px]    items-start justify-start md:justify-center flex-col   gap-[30px] bg-[#1f0016]  z-[16] h-[100%] md:z-0 w-[350px] md:w-max transition-all duration-500 right-[-350px] cursor-pointer  md:bg-transparent md:right-0 '>
+      <ul ref={menuRef} className='fixed md:relative top-0 hidden md:flex md:flex-row md:items-center  list-none md:gap-[60px]  text-[25px]    items-start justify-start md:justify-center flex-col   gap-[30px] bg-[#1f0016]  z-[111116] h-[100%] md:z-0 w-[350px]  md:w-max transition-all ease-in-out  duration-500  cursor-pointer  md:bg-transparent right-0 '>
         <img onClick={closeMenu} className='block relative left-[290px] top-[30px] w-[30px] md:hidden'  src={menu_close} alt=''/>
          <li className='text-[30px]  md:pl-0 pl-100px mx-[70px] md:mx-0 flex-row cursor-pointer flex md:flex-col md:justify-center gap-5 md:gap-[5px] ' onClick={()=>setMenu("home")}><AnchorLink className='text-white flex md:flex-col flex-row items-center' href='#home'><p>Home</p>{menu==="home"?<img className='w-[60px] flex justify-center' src={theme_pattern}/>:<></>} </AnchorLink></li>
         <li   className='text-[30px]  md:pl-0 pl-100px mx-[70px] md:mx-0 flex-row cursor-pointer flex md:flex-col md:justify-center gap-5 md:gap-[5px] ' onClick={()=>setMenu("about")}><AnchorLink className='text-white flex md:flex-col flex-row items-center' offset={50} href='#about'><p>About me</p>{menu==="about"?<img className='w-[60px] flex justify-center' src={theme_pattern}/>:<></>} </AnchorLink></li>
