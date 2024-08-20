@@ -54,7 +54,7 @@ const Footer = () => {
         <div className='w-[50%] md:flex justify-between gap-5 hidden'>
           <a href='#'>Terms & Conditions</a>
           <a href='#'>Privacy Policy</a>
-          <a href='#connect'>Connect with me</a>
+          <a href='#contect'>Connect with me</a>
         </div>
       </div>
     </div>
