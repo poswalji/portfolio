@@ -13,9 +13,10 @@ const Navbar = () => {
   }
   const closeMenu=()=>{
     menuRef.current.style.right="-350px";
+       menuRef.current.style.display="none";
   }
   return (
-    <div className='flex  items-center justify-between md:mx-[170px]  my-5 mx-[50px]   '>
+    <div className='flex   items-center justify-between md:mx-[170px]  my-5 mx-[50px]   '>
       <img className='h-20' src={logo} alt='' />
       <img onClick={openMenu} className='block fixed cursor-pointer right-[30px] md:hidden' src={menu_open} alt=''/>
       <ul ref={menuRef} className='fixed md:relative top-0 flex md:flex-row md:items-center  list-none md:gap-[60px]  text-[25px]    items-start justify-start md:justify-center flex-col   gap-[30px] bg-[#1f0016]  z-[16] h-[100%] md:z-0 w-[350px] md:w-max transition-all duration-500 right-[-350px] cursor-pointer  md:bg-transparent md:right-0 '>

@@ -5,11 +5,11 @@ import arrow_icon from '../assets/arrow_icon.svg';
 
 const MyWork = () => {
   // State to manage the number of visible items
-  const [visibleItems, setVisibleItems] = useState(3); // Initially show 3 items 
+  const [visibleItems, setVisibleItems] = useState(6); // Initially show 3 items 
 
   // Function to handle the "Show More" button click
   const handleShowMore = () => {
-    setVisibleItems(prevVisibleItems => prevVisibleItems + 3); // Load more items
+    setVisibleItems(prevVisibleItems => prevVisibleItems+6); // Load more items
   };
 
   return (

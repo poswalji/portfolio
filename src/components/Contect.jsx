@@ -107,8 +107,9 @@ const Contect = () => {
             {isSubmitting ? 'Submitting...' : 'Submit now'}
           </button>
         </form>
+         
       </div>
-      {result && <p className='text-[#d8d8d8] mt-4'>{result}</p>}
+     {result && <p className='text-[#d8d8d8] mt-[-20px'>{result}</p>}
     </div>
   );
 };
