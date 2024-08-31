@@ -22,7 +22,7 @@ const Services_Data = [
     {
         s_no:"05",
         s_name:"Custom Component Development",
-        s_desc:" Managing code efficiently using version control systems, enabling seamless collaboration with other developers and maintaining a clean project history.."
+        s_desc:" I specialize in creating custom, reusable UI components that are tailored to your project's needs. By leveraging frameworks like React, I develop components that are both visually appealing and highly functional."
     },
     {
         s_no:"06",
