@@ -33,7 +33,7 @@ const Navbar = () => {
         <li   className='text-[30px] md:pl-0 pl-100px mx-[70px] md:mx-0 flex-row cursor-pointer flex md:flex-col md:justify-center gap-5 md:gap-[5px] ' onClick={()=>setMenu("portfolio")}><AnchorLink className='text-white flex md:flex-col flex-row items-center' offset={50} href='#work'><p>Portfolio</p>{menu==="portfolio"?<img className='w-[60px] flex justify-center' src={theme_pattern}/>:<></>}</AnchorLink></li>
         <li   className='text-[30px] md:pl-0 pl-100px mx-[70px] md:mx-0 flex-row cursor-pointer flex md:flex-col md:justify-center gap-5 md:gap-[5px] ' onClick={()=>setMenu("contact")}><AnchorLink className='text-white flex md:flex-col flex-row items-center' offset={50} href='#contect'><p>Contact</p>{menu==="contact"?<img className='w-[60px] flex justify-center' src={theme_pattern}/>:<></>}</AnchorLink></li>
       </ul>
-     <AnchorLink offset={50} href='#contect'> <div className='hidden md:flex py-5 px-10 rounded-[50px] bg-[linear-gradient(267deg,_#DA7C25_0.36%,_#b923E1_102.06%)] text-[22px] cursor-pointer duration-500 transform hover:scale-[1.05]  '>Connect with me</div>
+     <AnchorLink offset={50} href='#contect'> <div className='hidden md:flex love py-5 px-10 rounded-[50px] bg-[linear-gradient(267deg,_#DA7C25_0.36%,_#b923E1_102.06%)] text-[22px] cursor-pointer duration-500 transform hover:scale-[1.05]  '>Connect with me</div>
      </AnchorLink> 
     </div>
   )
