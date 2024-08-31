@@ -27,7 +27,7 @@ const Services_Data = [
     {
         s_no:"06",
         s_name:"Responsive Web Design",
-        s_desc:"Creating websites that look and perform perfectly on any device, ensuring a seamless user experience on desktops, tablets, and smartphones"
+        s_desc:"Creating websites that look and perform perfectly on any device, ensuring a seamless user experience on desktops, tablets, and smartphones."
     },
 ]
  
