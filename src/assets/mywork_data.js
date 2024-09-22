@@ -10,6 +10,7 @@ import tictactoe from '../assets/tictactoe.png'
 import currency from '../assets/currency.png'
 import maabhagwati from '../assets/maabhagwati.png'
 import amazon from '../assets/amazon.png'
+import tommalu from '../assets/tommalu.png'
 const mywork_data = [
     {
         w_no:1,
@@ -19,34 +20,42 @@ const mywork_data = [
     },
     {
         w_no:2,
+        http:"https://tommalu.netlify.app/",
+        w_name:"Web design",
+        w_img:tommalu
+    },
+    {
+        w_no:3,
         http:"https://main--campfortour.netlify.app/",
         w_name:"Web design",
         w_img:camp
     },
     {
-        w_no:3,
+        w_no:4,
         http:"https://xoxo-conflicts.netlify.app/",
         w_name:"Web design",
         w_img:tictactoe
     },
     {
-        w_no:4,
+        w_no:5,
         http:"https://audiomelodify.vercel.app/",
         w_name:"Web design",
         w_img:currency
     },
     {
-        w_no:5,
+        w_no:6,
         http:"https://mabhagwatiedu.com/",
         w_name:"Web design",
         w_img:maabhagwati
     },
+    
     {
-        w_no:6,
+        w_no:7,
         http:"https://audiomelodify.vercel.app/",
         w_name:"Web design",
         w_img:amazon
     },
+     
 ]
  
 export default mywork_data;
